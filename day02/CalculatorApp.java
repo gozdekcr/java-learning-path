@@ -1,7 +1,7 @@
-package day01;
+package day02;
 
-   // calculator
-public class Main1 { 
+// calculator
+public class CalculatorApp { 
     public static void main(String[] args) {
         Calculator cal1 = new Calculator();
         cal1.addition(7, 35);

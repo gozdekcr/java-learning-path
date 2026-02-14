@@ -1,7 +1,7 @@
-package day01;
+package day02;
 
     // smartphone
-public class Main2 {
+public class SmartphoneApp {
     public static void main(String[] args) {
         // creating the first phone
         Smartphone phone1 = new Smartphone();

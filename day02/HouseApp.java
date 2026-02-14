@@ -1,7 +1,7 @@
-package day01;
+package day02;
 
-  // house
-public class Main0 {
+// house
+public class HouseApp {
     public static void main(String[] args) {
         House house1 = new House();
         House house2 = new House();
