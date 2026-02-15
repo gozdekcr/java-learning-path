@@ -15,7 +15,7 @@ public class SpeedCalculator {
 
     speed = distance / time ;
 
-    System.out.println(speed);
+    System.out.println("Speed is: " + speed);
 
 
     }
