@@ -36,6 +36,10 @@ java-learning-path/
 │   ├── TipCalculator.java
 │   └── VatCalculator.java
 ├── day04/
+│   ├── ComparisonOperators.java
+│   ├── ConditionalStatements.java
+│   └── LogicalOperators.java
+├── day05/
 │   └── ...
 └── ...
 ```
@@ -49,7 +53,7 @@ java-learning-path/
 | 01 | Print, Operators, Scanner Input | `PrintBasics` `ComparisonOperators` `ScannerInput` | ✅ |
 | 02 | Classes & Objects | `Calculator` `House` `Smartphone` + Apps | ✅ |
 | 03 | Variables, Scanner, User-input | `GradeCalculator` `VatCalculator` `TemperatureConverter` `CircleAreaCalculator` `SpeedCalculator` `TipCalculator` | ✅ |
-| 04 | | | ⬜ |
+| 04 | Comparison, Conditionals, Logical Operators | `ComparisonOperators` `ConditionalStatements` `LogicalOperators` | ✅ |
 | 05 | | | ⬜ |
 | 06 | | | ⬜ |
 | 07 | | | ⬜ |
