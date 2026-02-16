@@ -29,6 +29,13 @@ java-learning-path/
 │   ├── Smartphone.java
 │   └── SmartphoneApp.java
 ├── day03/
+│   ├── CircleAreaCalculator.java
+│   ├── GradeCalculator.java
+│   ├── SpeedCalculator.java
+│   ├── TemperatureConverter.java
+│   ├── TipCalculator.java
+│   └── VatCalculator.java
+├── day04/
 │   └── ...
 └── ...
 ```
@@ -41,7 +48,7 @@ java-learning-path/
 |:---:|-------|-------|:------:|
 | 01 | Print, Operators, Scanner Input | `PrintBasics` `ComparisonOperators` `ScannerInput` | ✅ |
 | 02 | Classes & Objects | `Calculator` `House` `Smartphone` + Apps | ✅ |
-| 03 | | | ⬜ |
+| 03 | Variables, Scanner, User-input | `GradeCalculator` `VatCalculator` `TemperatureConverter` `CircleAreaCalculator` `SpeedCalculator` `TipCalculator` | ✅ |
 | 04 | | | ⬜ |
 | 05 | | | ⬜ |
 | 06 | | | ⬜ |
