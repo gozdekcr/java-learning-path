@@ -49,6 +49,10 @@ java-learning-path/
 │   ├── ForLoopExercises.java
 │   └── BreakContinue.java
 ├── day07/
+│   ├── DoWhileExercise.java
+│   ├── WhileExercises1.java
+│   └── WhileExercises2.java
+├── day08/
 │   └── ...
 └── ...
 ```
@@ -65,7 +69,7 @@ java-learning-path/
 | 04 | Comparison, Conditionals, Logical Operators | `ComparisonOperators` `ConditionalStatements` `LogicalOperators` | ✅ |
 | 05 | Switch-Case, BMI, Grade Calculator  | `BMICalculator` `Calculator` `GradeCalculator` `SwitchCase` | ✅ |
 | 06 | Loops, For Loop, Break & Continue | `LoopExercises` `ForLoopExercises` `BreakContinue` | ✅ |
-| 07 | | | ⬜ |
+| 07 | While Loop, Do-While Practices | `DoWhileExercise` `WhileExercises1` `WhileExercises2` | ✅ |
 | 08 | | | ⬜ |
 | 09 | | | ⬜ |
 | 10 | | | ⬜ |
