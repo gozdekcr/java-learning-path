@@ -40,6 +40,15 @@ java-learning-path/
 │   ├── ConditionalStatements.java
 │   └── LogicalOperators.java
 ├── day05/
+│   ├── BMICalculator.java
+│   ├── Calculator.java
+│   ├── GradeCalculator.java
+│   └── SwitchCase.java
+├── day06/
+│   ├── LoopExercises.java
+│   ├── ForLoopExercises.java
+│   └── BreakContinue.java
+├── day07/
 │   └── ...
 └── ...
 ```
@@ -54,8 +63,8 @@ java-learning-path/
 | 02 | Classes & Objects | `Calculator` `House` `Smartphone` + Apps | ✅ |
 | 03 | Variables, Scanner, User-input | `GradeCalculator` `VatCalculator` `TemperatureConverter` `CircleAreaCalculator` `SpeedCalculator` `TipCalculator` | ✅ |
 | 04 | Comparison, Conditionals, Logical Operators | `ComparisonOperators` `ConditionalStatements` `LogicalOperators` | ✅ |
-| 05 | | | ⬜ |
-| 06 | | | ⬜ |
+| 05 | Switch-Case, BMI, Grade Calculator  | `BMICalculator` `Calculator` `GradeCalculator` `SwitchCase` | ✅ |
+| 06 | Loops, For Loop, Break & Continue | `LoopExercises` `ForLoopExercises` `BreakContinue` | ✅ |
 | 07 | | | ⬜ |
 | 08 | | | ⬜ |
 | 09 | | | ⬜ |
