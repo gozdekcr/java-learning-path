@@ -7,10 +7,10 @@ public class BMICalculator {
         Scanner input = new Scanner(System.in);
         double weight , height;
 
-        System.out.println("Enter your weight (kg):");
+        System.out.print("Enter your weight (kg):");
         weight = input.nextDouble();
 
-        System.out.println("Enter your height (cm):");
+        System.out.print("Enter your height (cm):");
         height = input.nextDouble();
 
         double heightInMeters = height / 100.0 ;
