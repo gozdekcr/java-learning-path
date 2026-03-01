@@ -53,6 +53,14 @@ java-learning-path/
 │   ├── WhileExercises1.java
 │   └── WhileExercises2.java
 ├── day08/
+│   ├── ArmstrongNumbers.java
+│   ├── FibonacciSeries.java
+│   └── GcdAndLcmCalculator.java
+├── day09/
+│    ├── MethodBasics.java
+│    ├── Overloading.java
+│    └── RecursiveMethods.java
+├── day10/
 │   └── ...
 └── ...
 ```
@@ -70,8 +78,8 @@ java-learning-path/
 | 05 | Switch-Case, BMI, Grade Calculator  | `BMICalculator` `Calculator` `GradeCalculator` `SwitchCase` | ✅ |
 | 06 | Loops, For Loop, Break & Continue | `LoopExercises` `ForLoopExercises` `BreakContinue` | ✅ |
 | 07 | While Loop, Do-While Practices | `DoWhileExercise` `WhileExercises1` `WhileExercises2` | ✅ |
-| 08 | | | ⬜ |
-| 09 | | | ⬜ |
+| 08 | Number Problems & Algorithms | `ArmstrongNumbers` `FibonacciSeries` `GcdAndLcmCalculator` | ✅ |
+| 09 | Methods, Overloading, Recursion | `MethodBasics` `Overloading` `RecursiveMethods` | ✅ |
 | 10 | | | ⬜ |
 | 11 | | | ⬜ |
 | 12 | | | ⬜ |
@@ -95,7 +103,10 @@ I use VS Code with the Java extension.
 
 ### 📓​ Things I Learned  
 - **Class Names:** Class name and File name should be same. Otherwise your file wouldn't work.  
-- **Scanner Buffer Issue:** This occurred to me when I write **nextLine** after **nextDouble** in file **"ScannerInput.java"**. Program didn't ask me the str. This is called *Scanner buffer issue* and if you write *nextLine* after *nextInt or nextDouble*, you will see this error. You can get rid of this writing **input.nextLine();** before nextLine. 
+- **Scanner Buffer Issue:** This occurred to me when I write **nextLine** after **nextDouble** in file **"ScannerInput.java"**. Program didn't ask me the str. This is called *Scanner buffer issue* and if you write *nextLine* after *nextInt or nextDouble*, you will see this error. You can get rid of this writing **input.nextLine();** before nextLine.
+- **Scanner belongs in main:** I made the mistake of putting `Scanner` inside a recursive method. Every time the method called itself and it asked for a new input.
+- **void methods can't be recursive (for calculations):**  I tried to calculate factorial with a `void` method and print the result inside. But recursion works by returning values back up the chain so `void` doesn't work here.
+- **Every path must return a value:** If a method is declared as `long` or `int`, Java requires ALL branches (if / else if / else) to have a `return` statement. Even if only one branch is missing it, the code won't work.
 
 
 
