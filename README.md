@@ -61,9 +61,19 @@ java-learning-path/
 │    ├── Overloading.java
 │    └── RecursiveMethods.java
 ├── day10/
+|   ├── Array.java
+|   ├── Calculator.java
+|   ├── EmpDriver.java
+|   ├── Employee.java
+|   ├── MultidimensionalArray.java
+|   └── OOP.java
+├── day11/
+|   ├── ArrayAverage.java
+|   └── GuessNumber.java
+└── ...
+├── day12/
 │   └── ...
 └── ...
-```
 
 ---
 
@@ -80,8 +90,8 @@ java-learning-path/
 | 07 | While Loop, Do-While Practices | `DoWhileExercise` `WhileExercises1` `WhileExercises2` | ✅ |
 | 08 | Number Problems & Algorithms | `ArmstrongNumbers` `FibonacciSeries` `GcdAndLcmCalculator` | ✅ |
 | 09 | Methods, Overloading, Recursion | `MethodBasics` `Overloading` `RecursiveMethods` | ✅ |
-| 10 | | | ⬜ |
-| 11 | | | ⬜ |
+| 10 | Arrays & OOP | `Array` `MultidimensionalArray` `Calculator` `Employee` `EmpDriver` `OOP` | ✅ |
+| 11 | Array Methods, Mini Projects | `ArrayAverage` `GuessNumber` | ✅ |
 | 12 | | | ⬜ |
 | 13 | | | ⬜ |
 | 14 | | | ⬜ |
