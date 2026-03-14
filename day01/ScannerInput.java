@@ -29,5 +29,6 @@ public class ScannerInput {
         str = input.nextLine();
         System.out.println("str= " + str);
 
+        input.close();
     }
 }
