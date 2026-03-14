@@ -22,7 +22,7 @@ public class TipCalculator {
         System.out.println("Total with tip: $" + total);
 
 
-
+        input.close();
     }
     
 }

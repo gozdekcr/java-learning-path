@@ -14,7 +14,7 @@ public class CircleAreaCalculator {
 
         System.out.println("The area of the circle is : " + area);
 
-
+        input.close();
     }
     
 }

@@ -40,7 +40,7 @@ public class Calculator {
             System.out.println("Please enter a number between 1 and 4.");
         }
             
-       
+       input.close();
     }
     
 }

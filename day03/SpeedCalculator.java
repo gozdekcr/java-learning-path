@@ -17,6 +17,6 @@ public class SpeedCalculator {
 
     System.out.println("Speed is: " + speed);
 
-
+    input.close();
     }
 }

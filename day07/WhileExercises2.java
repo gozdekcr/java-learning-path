@@ -100,15 +100,7 @@ public class WhileExercises2 {
         }
         System.out.println("Result: " + result);
 
-
-
-
-        
-
-
-
-
-
+        input.close();
     }
     
 }

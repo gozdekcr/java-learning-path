@@ -22,6 +22,7 @@ public class SwitchCase {
                 System.out.println("Enter a number between 1-3");
                 break;
         }
+        input.close();
         
     }
 }

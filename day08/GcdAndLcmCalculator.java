@@ -35,8 +35,7 @@ public class GcdAndLcmCalculator {
         System.out.println("Numbers: " + num1 + " " + num2);
         System.out.println("GCD (Greatest Common Divisor): " + gcd);
         System.out.println("LCM (Least Common Multiple)" + lcm);
-        
+     
+        input.close();
     }
-    
-    
 }

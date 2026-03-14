@@ -30,7 +30,7 @@ public class RecursiveMethods {
 
         System.out.println(number + "! = " + result);
 
-        
+    input.close();
     }
 
 }

@@ -33,6 +33,8 @@ public class BMICalculator {
         }else {
             System.out.println("Obese");
         }
+
+        input.close();
     }
     
 }

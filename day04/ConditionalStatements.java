@@ -25,8 +25,9 @@ public class ConditionalStatements {
         } else {
             System.out.println("Number 1 and Number 2 are equal!");
         
-            } 
+        } 
 
+        input.close();
     }
     
 }

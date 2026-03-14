@@ -27,7 +27,7 @@ public class FibonacciSeries {
             second = next;    
 
         }
-
+        input.close();
     }
     
 }

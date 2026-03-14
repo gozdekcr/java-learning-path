@@ -24,7 +24,7 @@ public class DoWhileExercise {
         System.out.println("Sum of even numbers: " + result);
 
 
-
+        input.close();
     }
     
 }

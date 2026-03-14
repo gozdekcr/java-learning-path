@@ -13,6 +13,8 @@ public class TemperatureConverter {
 
         System.out.println(celcius + " celcius is " + fahrenheit + " fahrenheit");
 
+        input.close();
     }
+
     
 }

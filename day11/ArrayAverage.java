@@ -35,6 +35,6 @@ public class ArrayAverage {
         }
         System.out.println("Average is: " + (sum / notes.length));
 
-
+        input.close();
     }
 }

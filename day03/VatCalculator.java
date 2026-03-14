@@ -12,5 +12,6 @@ public class VatCalculator {
         priceWithVat = price + (price*vat);
         System.out.println(priceWithVat);
 
+        input.close();
     }
 }

@@ -71,26 +71,9 @@ public class WhileExercises1 {
                 break;
                 
             }else if(num % 2 != 0) {
-                total = total + num;
-                
-                
+                total = total + num;  
             }
-               
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
         }
+        input.close();
     }
 }

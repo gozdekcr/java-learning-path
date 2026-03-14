@@ -22,5 +22,7 @@ public class GradeCalculator {
         String result = (average >= 50) ? "You passed!" : "You failed!";
 
         System.out.println(result);
+
+        input.close();
     }
 }

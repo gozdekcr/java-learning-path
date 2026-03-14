@@ -32,7 +32,8 @@ public class GuessNumber {
         }else {
             System.out.println("Sorry, the number was " + num);
         }
-        
+       
+        input.close();
     }
     
 }

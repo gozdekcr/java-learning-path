@@ -29,7 +29,7 @@ public class GradeCalculator {
             System.out.println("F");
         }
 
-        
+        input.close();
     }
     
 }
