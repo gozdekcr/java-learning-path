@@ -70,9 +70,12 @@ java-learning-path/
 ├── day11/
 |   ├── ArrayAverage.java
 |   └── GuessNumber.java
-└── ...
 ├── day12/
-│   └── ...
+│   └── Book.java
+|   ├── Encapsulation.java
+|   ├── Home.java
+|   └── HomeMain.java
+├── day13/
 └── ...
 
 ---
