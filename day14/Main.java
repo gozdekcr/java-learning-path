@@ -5,31 +5,8 @@ public class Main {
 
         //Inheritance, overriding ,polymorphism
         
-        Clerk c = new Clerk();
-        c.name = "Bob";
-        c.role = "Registrar";
-        c.officeRoom = "Office 101";
-
-        c.attendanceRecord();
-        c.showRole();
-        Worker.entry();
-
-        System.out.println("-----------------");
-
-        Academician t = new Academician();
-        t.name = "Alice";
-        t.department = "Science";
-        t.courses = new String[]{"Math", "Physics"};
-        t.duties = "Homeroom teacher";
-
-        t.attendanceRecord();
-        t.showCourses();
-        Worker.entry();
-
-        Worker w = new Academician();
-        w.name = "Mia";
-        w.department= "Math";
-        
+        String[] cources1 = {"ceng1008", "ceng3050"};
+        Academician A = new Academician("Leo" , "ronald.leo@gmail.com" , "05555555555", "ceng" , cources1);
+        System.out.println(A);
     }
-
 }

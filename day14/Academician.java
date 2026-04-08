@@ -1,7 +1,7 @@
 package day14;
 
 public class Academician extends Worker {
-    String department, duties;
+    String department;
     String[] courses;
 
     public void attendanceRecord() {
@@ -16,7 +16,28 @@ public class Academician extends Worker {
         }
     }
 
-    public void 
+    public Academician(String name, String mail, String number, String department, String[] courses) {
+        super(name, mail, number);
+        this.department = department;
+        this.courses = courses;
+    }
+
+    @Override
+    public String toString() {
+    return "------------------------------\n" +
+           " ACADEMICIAN INFORMATION \n" +
+           "------------------------------\n" +
+           " Name       : " + name + "\n" +
+           " E-mail     : " + mail + "\n" +
+           " Department : " + department + "\n" +
+           " Phone      : " + number + "\n" +
+           " Courses    : " + java.util.Arrays.toString(courses) + "\n" +
+           "------------------------------";
+    }
+
+    
+
+ 
 
 
 
