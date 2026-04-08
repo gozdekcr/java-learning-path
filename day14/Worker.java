@@ -2,8 +2,32 @@ package day14;
 
 public class Worker {
 
-    String name , mail;
-    String number;
+    protected String name , mail;
+    protected String number;
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
+
     static int entryCount=0;
 
     public Worker(String name, String mail, String number) {

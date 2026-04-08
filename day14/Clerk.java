@@ -13,6 +13,28 @@ public class Clerk extends Worker {
         System.out.println(name + " works as: " + role);
     }
 
+    public Clerk(String name, String mail, String number, String role, String officeRoom) {
+        super(name, mail, number);
+        this.role = role;
+        this.officeRoom = officeRoom;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    public String getOfficeRoom() {
+        return officeRoom;
+    }
+
+    public void setOfficeRoom(String officeRoom) {
+        this.officeRoom = officeRoom;
+    }
+
 
 
 }
