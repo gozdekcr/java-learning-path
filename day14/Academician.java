@@ -16,30 +16,25 @@ public class Academician extends Worker {
         }
     }
 
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public String[] getCourses() {
+        return courses;
+    }
+
+    public void setCourses(String[] courses) {
+        this.courses = courses;
+    }
+
     public Academician(String name, String mail, String number, String department, String[] courses) {
         super(name, mail, number);
         this.department = department;
         this.courses = courses;
     }
-
-    @Override
-    public String toString() {
-    return "------------------------------\n" +
-           " ACADEMICIAN INFORMATION \n" +
-           "------------------------------\n" +
-           " Name       : " + name + "\n" +
-           " E-mail     : " + mail + "\n" +
-           " Department : " + department + "\n" +
-           " Phone      : " + number + "\n" +
-           " Courses    : " + java.util.Arrays.toString(courses) + "\n" +
-           "------------------------------";
-    }
-
-    
-
- 
-
-
-
-
 }
