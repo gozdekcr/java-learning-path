@@ -5,16 +5,53 @@ public class Main {
 
         //Inheritance, overriding ,polymorphism
         
-        String[] cources1 = {"ceng1008", "ceng3050"};
-        Academician p1 = new Academician("Leo" , "ronald.leo@gmail.com" , "05555555555", "ceng" , cources1);
-        System.out.println(p1);
+        String[] mathCourses = {"Calculus II", "Linear Algebra", "Differential Equations"};
+        Teacher teacher = new Teacher("Emily Bennet","emily.bennet@uni.edu","012345","Mathematics",mathCourses,"Associate Professor");
+        Worker.entry();
 
-        String[] cources2 = {"math1542", "math2345" , "math3245" , "math2006"};
-        Assistant p2 = new Assistant("Claire Dennes", "dennes.c@gmail.com", "04444444444", "math", cources2, "Res. Asst.");
-        System.out.println(p2);
+        teacher.attendanceRecord();
+        teacher.showCourses();
+        System.out.println("Rank: " + teacher.getRank());
+        System.out.println();
 
 
-        Clerk p3 = new Clerk("Henry John", "henry.jhn@gmail.com", "08888888888", " ", null);
+        String[] csCourses = {"Intro to Programming", "Data Structures"};
+        Assistant assistant = new Assistant("Liam Bennett","liam.bennett@uni.edu","098765","Computer Engineering",csCourses,"MSc Artificial Intelligence");
+        Worker.entry();
+
+        assistant.attendanceRecord();
+        assistant.showCourses();
+        System.out.println("Masters: " + assistant.getMasters());
+        System.out.println(assistant);
+        System.out.println();
+
+
+
+
+        Clerk clerk = new Clerk("Sophia Reynolds","sophia.reynolds@uni.edu","835481","Secretary","A-101");
+        Worker.entry();
+
+        clerk.attendanceRecord();
+        clerk.showRole();
+        System.out.println("Office Room: " + clerk.getOfficeRoom());
+        System.out.println();
+
+        
+        Accountant accountant = new Accountant("James Wilson","james.wilson@uni.edu","254823","Senior Accountant","B-205","Payroll & Budget Management");
+        Worker.entry();
+
+        accountant.attendanceRecord();
+        accountant.showRole();
+        System.out.println("Duties: " + accountant.getDuties());
+        System.out.println(accountant);
+        System.out.println();
+
+
+        teacher.setRank("Full Professor");
+        System.out.println("Updated rank: " + teacher.getRank());
+
+        assistant.setMasters("PhD Computer Science");
+        System.out.println("Updated masters: " + assistant.getMasters());
 
 
 
