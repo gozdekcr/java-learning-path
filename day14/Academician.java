@@ -4,10 +4,8 @@ public abstract  class Academician extends Worker {
     String department;
     String[] courses;
 
-    public abstract void attendanceRecord() {
-        System.out.println(name + " (Teacher) is in the building.");
-        System.out.println("Department: " + department);
-    }
+    public abstract void attendanceRecord();
+    
 
     public void showCourses() {
         System.out.println(name + " teaches: ");
