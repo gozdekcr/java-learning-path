@@ -89,8 +89,8 @@ java-learning-path/
 |   ├── Teacher.java
 |   └── Worker.java
 ├── day15/
-└── ...
-
+└── ```
+```
 ---
 
 ### 🗓️ Daily Progress
