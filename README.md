@@ -89,8 +89,8 @@ java-learning-path/
 |   ├── Teacher.java
 |   └── Worker.java
 ├── day15/
-└── ...
-
+└── ```
+```
 ---
 
 ### 🗓️ Daily Progress
@@ -108,9 +108,9 @@ java-learning-path/
 | 09 | Methods, Overloading, Recursion | `MethodBasics` `Overloading` `RecursiveMethods` | ✅ |
 | 10 | Arrays & OOP | `Array` `MultidimensionalArray` `Calculator` `Employee` `EmpDriver` `OOP` | ✅ |
 | 11 | Array Methods, Mini Projects | `ArrayAverage` `GuessNumber` | ✅ |
-| 12 | | | ⬜ |
-| 13 | | | ⬜ |
-| 14 | | | ⬜ |
+| 12 |  Encapsulation | `Book` `Encapsulation` `Home` `HomeMain` | ✅ |
+| 13 | Collections, Library Management | `Author` `Books` `Library` `Main` | ✅ |
+| 14 | Inheritance & Polymorphism | `Academician` `Accountant` `Assistant` `Clerk` `Main` `Teacher` `Worker` | ✅ |
 | 15 | | | ⬜ |
 | 16 | | | ⬜ |
 | 17 | | | ⬜ |
