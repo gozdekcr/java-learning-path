@@ -34,7 +34,4 @@ public class Clerk extends Worker {
     public void setOfficeRoom(String officeRoom) {
         this.officeRoom = officeRoom;
     }
-
-
-
 }

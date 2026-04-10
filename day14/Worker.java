@@ -44,7 +44,4 @@ public class Worker {
     public static int entry() {
         return ++Worker.entryCount;
     }
-
-
-    
 }

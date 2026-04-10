@@ -2,20 +2,20 @@ package day14;
 
 public class Teacher extends Academician {
 
-  String rank;
+    String rank;
 
-  public Teacher(String name, String mail, String number, String department, String[] courses, String rank) {
-    super(name, mail, number, department, courses);
-    this.rank = rank;
-  }
+    public Teacher(String name, String mail, String number, String department, String[] courses, String rank) {
+        super(name, mail, number, department, courses);
+        this.rank = rank;
+    }
 
-  public String getRank() {
-    return rank;
-  }
+    public String getRank() {
+        return rank;
+    }
 
-  public void setRank(String rank) {
-    this.rank = rank;
-  }
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
 
     @Override
     public String toString() {
@@ -26,6 +26,10 @@ public class Teacher extends Academician {
         return sb.toString();
     }
 
-  
-    
+    @Override
+    public void attendanceRecord() {
+        System.out.println(name + " (Teacher) is in the building.");
+        System.out.println("Department: " + department);
+        System.out.println("Rank: " + rank);
+    }
 }

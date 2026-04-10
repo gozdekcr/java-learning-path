@@ -1,10 +1,10 @@
 package day14;
 
-public class Academician extends Worker {
+public abstract  class Academician extends Worker {
     String department;
     String[] courses;
 
-    public void attendanceRecord() {
+    public abstract void attendanceRecord() {
         System.out.println(name + " (Teacher) is in the building.");
         System.out.println("Department: " + department);
     }
