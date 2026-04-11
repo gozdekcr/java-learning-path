@@ -111,7 +111,7 @@ java-learning-path/
 | 12 |  Encapsulation | `Book` `Encapsulation` `Home` `HomeMain` | ✅ |
 | 13 | Collections, Library Management | `Author` `Books` `Library` `Main` | ✅ |
 | 14 | Inheritance & Polymorphism | `Academician` `Accountant` `Assistant` `Clerk` `Main` `Teacher` `Worker` | ✅ |
-| 15 | | | ⬜ |
+| 15 | | | ✅ |
 | 16 | | | ⬜ |
 | 17 | | | ⬜ |
 | 18 | | | ⬜ |
