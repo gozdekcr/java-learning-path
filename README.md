@@ -133,7 +133,7 @@ I use VS Code with the Java extension.
 - **Scanner belongs in main:** I made the mistake of putting `Scanner` inside a recursive method. Every time the method called itself and it asked for a new input.
 - **void methods can't be recursive (for calculations):**  I tried to calculate factorial with a `void` method and print the result inside. But recursion works by returning values back up the chain so `void` doesn't work here.
 - **Every path must return a value:** If a method is declared as `long` or `int`, Java requires ALL branches (if / else if / else) to have a `return` statement. Even if only one branch is missing it, the code won't work.
-
+- **Polymorphism:** Polymorphism is not just about overriding methods in subclasses. It also means that different objects can be managed through a shared superclass reference (upcasting). Each subclass keeps its own behavior while being treated as the same type. We make it for making the code flexible and independent of specific object types.
 
 
 
