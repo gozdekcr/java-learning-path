@@ -129,7 +129,7 @@ java-learning-path/
 ---
 
 ### 🛠️ Setup
-I use VS Code with the Java extension. 
+I use VS Code with the Java extension
 
 ---
 
