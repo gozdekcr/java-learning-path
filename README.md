@@ -118,7 +118,7 @@ java-learning-path/
 | 13 | Collections, Library Management | `Author` `Books` `Library` `Main` | ✅ |
 | 14 | Inheritance & Polymorphism | `Academician` `Accountant` `Assistant` `Clerk` `Main` `Teacher` `Worker` | ✅ |
 | 15 | | | ✅ |
-| 16 | | | ⬜ |
+| 16 | | | ✅ |
 | 17 | | | ⬜ |
 | 18 | | | ⬜ |
 | 19 | | | ⬜ |
