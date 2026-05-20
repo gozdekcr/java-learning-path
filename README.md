@@ -94,7 +94,7 @@ java-learning-path/
 |   ├── Shape.java
 |   ├── Triangle.java
 |   ├── Main.java
-├── day17/
+├── day16/
 └── ```
 ```
 ---
