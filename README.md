@@ -95,6 +95,19 @@ java-learning-path/
 |   ├── Triangle.java
 |   ├── Main.java
 ├── day16/
+│   ├── Circle.java
+│   ├── Drawable.java
+│   ├── Rectangle.java
+│   ├── Shape.java
+│   ├── ShapeApp.java
+│   └── Text.java
+├── day17/
+│   ├── AlternatingSum.java
+│   ├── CountEven.java
+│   ├── CourseMember.java
+│   ├── LibraryMember.java
+│   └── Student.java
+├── day18/
 └── ```
 ```
 ---
@@ -117,9 +130,9 @@ java-learning-path/
 | 12 |  Encapsulation | `Book` `Encapsulation` `Home` `HomeMain` | ✅ |
 | 13 | Collections, Library Management | `Author` `Books` `Library` `Main` | ✅ |
 | 14 | Inheritance & Polymorphism | `Academician` `Accountant` `Assistant` `Clerk` `Main` `Teacher` `Worker` | ✅ |
-| 15 | | | ✅ |
-| 16 | | | ✅ |
-| 17 | | | ✅ |
+| 15 | Inheritance | `Circle` `Rectangle` `Shape` `Triangle` `Main` | ✅ |
+| 16 | Interfaces, Abstract Classes & Polymorphism | `Circle` `Drawable` `Rectangle` `Shape` `ShapeApp` `Text` | | ✅ |
+| 17 | Midterm Review | `AlternatingSum` `CountEven` `CourseMember` `LibraryMember` `Student` | ✅ |
 | 18 | | | ⬜ |
 | 19 | | | ⬜ |
 | 20 | | | ⬜ |
