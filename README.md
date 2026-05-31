@@ -107,6 +107,19 @@ java-learning-path/
 │   ├── CourseMember.java
 │   ├── LibraryMember.java
 │   └── Student.java
+├── day18/
+│   ├── ATM/
+│   │   ├── ATM.java
+│   │   ├── ATMTest.java
+│   │   ├── DailyLimitExceededException.java
+│   │   ├── InsufficientFundsException.java
+│   │   └── InvalidAmountException.java
+│   ├── BankAccount/
+│   │   ├── BankAccount.java
+│   │   ├── InsufficientFundsException.java
+│   │   └── TestBankAccount.java
+│   ├── Exceptions.java
+│   └── ThrowException.java
 ├── day19/
 └── ```
 ```
@@ -131,9 +144,9 @@ java-learning-path/
 | 13 | Collections, Library Management | `Author` `Books` `Library` `Main` | ✅ |
 | 14 | Inheritance & Polymorphism | `Academician` `Accountant` `Assistant` `Clerk` `Main` `Teacher` `Worker` | ✅ |
 | 15 | Inheritance | `Circle` `Rectangle` `Shape` `Triangle` `Main` | ✅ |
-| 16 | Interfaces, Abstract Classes & Polymorphism | `Circle` `Drawable` `Rectangle` `Shape` `ShapeApp` `Text` | | ✅ |
+| 16 | Interfaces, Abstract Classes & Polymorphism | `Circle` `Drawable` `Rectangle` `Shape` `ShapeApp` `Text` | ✅ |
 | 17 | Midterm Review | `AlternatingSum` `CountEven` `CourseMember` `LibraryMember` `Student` | ✅ |
-| 18 | | | ⬜ |
+| 18 | Exception Handling | `ATM` `ATMTest` `DailyLimitExceededException` `InsufficientFundsException` `InvalidAmountException` `BankAccount` `TestBankAccount` `Exceptions` `ThrowException` | ✅ |
 | 19 | | | ⬜ |
 | 20 | | | ⬜ |
 
