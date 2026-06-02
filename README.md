@@ -120,7 +120,7 @@ java-learning-path/
 │   │   └── TestBankAccount.java
 │   ├── Exceptions.java
 │   └── ThrowException.java
-├── day/
+├── day19/
 └── ```
 ```
 ---
