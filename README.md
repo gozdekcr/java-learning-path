@@ -121,6 +121,13 @@ java-learning-path/
 │   ├── Exceptions.java
 │   └── ThrowException.java
 ├── day19/
+│   ├── Compare.java
+│   ├── Generics.java
+│   ├── Stack.java
+│   ├── Swap.java
+│   ├── Test.java
+│   └── Test2.java
+├── day20/
 └── ```
 ```
 ---
