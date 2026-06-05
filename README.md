@@ -154,7 +154,7 @@ java-learning-path/
 | 16 | Interfaces, Abstract Classes & Polymorphism | `Circle` `Drawable` `Rectangle` `Shape` `ShapeApp` `Text` | ✅ |
 | 17 | Midterm Review | `AlternatingSum` `CountEven` `CourseMember` `LibraryMember` `Student` | ✅ |
 | 18 | Exception Handling | `ATM` `ATMTest` `DailyLimitExceededException` `InsufficientFundsException` `InvalidAmountException` `BankAccount` `TestBankAccount` `Exceptions` `ThrowException` | ✅ |
-| 19 | | | ⬜ |
+| 19 | | | ✅ |
 | 20 | | | ⬜ |
 
 > ✅ Completed
