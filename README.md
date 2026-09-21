@@ -127,7 +127,7 @@ java-learning-path/
 │   ├── Swap.java
 │   ├── Test.java
 │   └── Test2.java
-├── day20/
+├── day/
 └── ```
 ```
 ---
