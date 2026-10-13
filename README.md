@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💮​ Java Learning Path
+# Java Learning Path
 
 **My daily journey of learning Java from scratch.**
 <br/>
